@@ -1,0 +1,4 @@
+project_name,milestone_id,milestone_name,planned_date,actual_date,planned_budget,actual_budget,blockers_count,scope_change_count
+"Acme Cloud Project",MS-01,Setup Infrastructure,20/06/2026,22/06/2026,100000,105000,1,0
+"Acme Cloud Project",MS-02,Database Deploy,2026-07-01,2026-07-03,150000,152000,0,1
+"Global Rollout, Phase 2",MS-03,Integration Testing,15-08-2026,18-08-2026,200000,210000,2,2

@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #e5eefc;
+  background:
+    radial-gradient(circle at top left, rgba(255, 138, 76, 0.18), transparent 26%),
+    radial-gradient(circle at 80% 10%, rgba(67, 217, 173, 0.16), transparent 24%),
+    linear-gradient(160deg, #050816 0%, #0a1220 48%, #101a2d 100%);
+  font-family: 'Manrope', Inter, system-ui, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: transparent;
+}
+
+::selection {
+  background: rgba(255, 138, 76, 0.35);
+}
+
+.glass {
+  background: rgba(12, 19, 34, 0.72);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.grid-bg {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #e5eefc;
+  background:
+    radial-gradient(circle at top left, rgba(255, 138, 76, 0.18), transparent 26%),
+    radial-gradient(circle at 80% 10%, rgba(67, 217, 173, 0.16), transparent 24%),
+    linear-gradient(160deg, #050816 0%, #0a1220 48%, #101a2d 100%);
+  font-family: 'Manrope', Inter, system-ui, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: transparent;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: rgba(255, 138, 76, 0.35);
+}
+
+.glass {
+  background: rgba(12, 19, 34, 0.72);
+  backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.grid-bg {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
