@@ -189,7 +189,7 @@ Tested on 1,000 purchase orders across 25 suppliers:
 
 ## License
 
-MIT © 2026 [Vigneshwaran-tech](https://github.com/Vigneshwaran-tech)
+MIT © 2026 
 
 ---
 
